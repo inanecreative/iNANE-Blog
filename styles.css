@@ -189,4 +189,51 @@ img {
     box-shadow: 5px 5px 5px 3px var(--navy-indigo);
   }
   
+  /* Music Section */
+
+  .PP {
+    font-size: var(--50px);
+    text-align: center;
+    background-color: var(--periwinkle);
+    color: white;
+    height: auto;
+    margin: 0;
+    padding: 50px;
+  }
+
+.playlist-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* padding: 20px; */
+
+}
+ .play-list {
+    display: flex;
+    flex-flow: column;
+    background-color: var(--light-purple);
+    width: auto;
+    height: 500px;
+    overflow: scroll;
+    padding: 50px;
+  }
+
+  .play-list h3 {
+    font-size: 35px;
+    color: var(--navy-indigo);
+    text-align: center;
+    margin: 0;
+    padding: var(--20px);
+    position:sticky;
+    top: -60px;
+    background-color: var(--light-purple);
+  }
+
+  .song-item {
+    display: flex;
+    width: auto;
+    height:min-content;
+    padding: 20px;
+  }
+
+  
  
